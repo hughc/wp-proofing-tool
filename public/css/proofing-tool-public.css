@@ -2,3 +2,52 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+.single-proof .comments {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.single-proof .comments .wrap .go-button {
+  display: inline-block;
+  border: 2px solid #6666aa;
+  background-color: #ffffff;
+  color: #6666aa;
+  cursor: pointer;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  width: auto;
+  float: right;
+}
+.single-proof .comments .wrap .go-button:hover,
+.single-proof .comments .wrap .go-button:focus {
+  background-color: #6666aa;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.single-proof .nav-button {
+  display: inline-block;
+  border: 2px solid #3333aa;
+  background-color: #ffffff;
+  color: #3333aa;
+  cursor: pointer;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  width: auto;
+}
+.single-proof .nav-button:hover,
+.single-proof .nav-button:focus {
+  background-color: #3333aa;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
